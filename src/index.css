@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --ba-navy: #172554;
+    --ba-accent: #3B82F6;
+    --ba-bg: #F8FAFC;
+    --ba-surface: #FFFFFF;
+    --ba-text: #111827;
+    --ba-muted: #64748B;
+    --ba-border: #E2E8F0;
+    --ba-success: #16A34A;
+    --ba-warning: #F59E0B;
+    --ba-danger: #DC2626;
+  }
+
+  html {
+    font-family: 'IBM Plex Sans Arabic', 'Cairo', 'Plus Jakarta Sans', system-ui, sans-serif;
+    background-color: #F8FAFC;
+    color: #111827;
+  }
+
+  html[dir='ltr'] {
+    font-family: 'Plus Jakarta Sans', 'IBM Plex Sans Arabic', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    text-wrap: balance;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.font-mono-num {
+  font-family: 'IBM Plex Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}

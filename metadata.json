@@ -1,0 +1,6 @@
+{
+  "name": "BALANCE ACADEMY",
+  "description": "منصة تعليمية متكاملة من BALANCE Agency لتقديم الدورات الاحترافية في المونتاج والتسويق الرقمي والبرمجة بنظام حماية فيديو متقدم وإدارة كاملة للتعلم.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
